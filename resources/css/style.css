@@ -1,0 +1,93 @@
+/* ******************************************* */
+/* Header */
+/* ******************************************* */
+header {
+  background-color: #0D122B;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+/* ******************************************* */
+/* The Box */
+/* ******************************************* */
+.container {
+  background-color: red;
+  width: 400px;
+  margin-top: 200px;
+}
+
+.buttons{}
+
+
+
+/* ******************************************* */
+/* Footer */
+/* ******************************************* */
+footer {
+  background-color: #0D122B;
+  height: 90px;
+  margin-top: 400px;
+}
+
+footer .container {
+  display: flex;
+  align-items: right;
+}
+
+footer img {
+  width: auto;
+  margin: 0px;
+  position: absolute;
+  right: 5px;
+  bottom: -1647px;
+  width:260px;
+  height:100px;
+}
+
+/*@import url(https://fonts.googleapis.com/css?family=Lato);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);*/
+
+.footer-social-icons {
+  display: block;
+  padding-top: 45px;
+}
+
+.social-icons {
+  color: #fff;
+}
+
+.social-icons li {
+  display: inline;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-github{
+    padding: 10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+
+.fa-github:hover {
+    background-color: #3d5b99;
+}
+
+.fa-linkedin {
+  padding: 10px 14px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.fa-linkedin:hover {
+  background-color: #0073a4;
+}
