@@ -12,11 +12,19 @@ header {
 /* ******************************************* */
 .container {
   background-color: red;
-  width: 400px;
+  width: 500px;
+  height: 400px;
   margin-top: 200px;
 }
 
-.buttons{}
+.buttons button {
+  margin-left: 160px;
+  margin-top: 100px;
+}
+
+button .twitter {
+  border-radius:10px;
+}
 
 
 
