@@ -11,7 +11,8 @@ header {
 /* The Box */
 /* ******************************************* */
 .container {
-  background-color: red;
+  background-color: #FFFFFF;
+  border: black solid 1px;
   width: 500px;
   height: 400px;
   margin-top: 200px;
