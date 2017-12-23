@@ -1,3 +1,8 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
 /* ******************************************* */
 /* Header */
 /* ******************************************* */
@@ -14,18 +19,32 @@ header {
   background-color: #FFFFFF;
   border: black solid 1px;
   width: 500px;
-  height: 400px;
+  height: 500px;
   margin-top: 200px;
-}
-
-.buttons button {
-  margin-left: 160px;
-  margin-top: 100px;
-}
-
-button .twitter {
   border-radius:10px;
 }
+
+.instruction {
+  margin-top: 40px;
+}
+
+.quote {
+  margin-top: 50px;
+}
+
+.buttons {
+  /*margin-left: 160px;*/
+  margin-top: 250px;
+}
+
+.buttons button .twitter-button {
+  border-radius:10px;
+}
+
+button {
+  margin-left: 100px;
+}
+
 
 
 
@@ -34,8 +53,8 @@ button .twitter {
 /* ******************************************* */
 footer {
   background-color: #0D122B;
-  height: 90px;
-  margin-top: 400px;
+  height: 100px;
+  margin-top: 100px;
 }
 
 footer .container {
@@ -49,13 +68,9 @@ footer img {
   position: absolute;
   right: 5px;
   bottom: -1647px;
-  width:260px;
+  width: 260px;
   height:100px;
 }
-
-/*@import url(https://fonts.googleapis.com/css?family=Lato);
-
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);*/
 
 .footer-social-icons {
   display: block;
